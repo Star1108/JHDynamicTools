@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA11007B226966F0008FAF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11007A226966F0008FAF31 /* AppDelegate.m */; };
+		CA11007E226966F0008FAF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11007D226966F0008FAF31 /* ViewController.m */; };
+		CA110081226966F0008FAF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA11007F226966F0008FAF31 /* Main.storyboard */; };
+		CA110083226966F1008FAF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA110082226966F1008FAF31 /* Assets.xcassets */; };
+		CA110086226966F1008FAF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA110084226966F1008FAF31 /* LaunchScreen.storyboard */; };
+		CA110089226966F1008FAF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA110088226966F1008FAF31 /* main.m */; };
+		CA110093226966F1008FAF31 /* JHDynamicToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA110092226966F1008FAF31 /* JHDynamicToolsDemoTests.m */; };
+		CA11009E226966F1008FAF31 /* JHDynamicToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11009D226966F1008FAF31 /* JHDynamicToolsDemoUITests.m */; };
+		CA1100AD2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AB2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework */; };
+		CA1100AE2269670C008FAF31 /* JHToolsSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AC2269670C008FAF31 /* JHToolsSDKCore.framework */; };
+		CA1100AF2269671D008FAF31 /* JHToolsSDK_CommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AB2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework */; };
+		CA1100B02269671D008FAF31 /* JHToolsSDK_CommonSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AB2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA1100B12269671D008FAF31 /* JHToolsSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AC2269670C008FAF31 /* JHToolsSDKCore.framework */; };
+		CA1100B22269671D008FAF31 /* JHToolsSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA1100AC2269670C008FAF31 /* JHToolsSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA1100C422696AFA008FAF31 /* Bundle_51WanSY.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA1100BD22696AFA008FAF31 /* Bundle_51WanSY.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA11008F226966F1008FAF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA11006E226966F0008FAF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA110075226966F0008FAF31;
+			remoteInfo = JHDynamicToolsDemo;
+		};
+		CA11009A226966F1008FAF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA11006E226966F0008FAF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA110075226966F0008FAF31;
+			remoteInfo = JHDynamicToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA1100B32269671D008FAF31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CA1100B22269671D008FAF31 /* JHToolsSDKCore.framework in Embed Frameworks */,
+				CA1100B02269671D008FAF31 /* JHToolsSDK_CommonSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA110076226966F0008FAF31 /* JHDynamicToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHDynamicToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA110079226966F0008FAF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA11007A226966F0008FAF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA11007C226966F0008FAF31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA11007D226966F0008FAF31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA110080226966F0008FAF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA110082226966F1008FAF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA110085226966F1008FAF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA110087226966F1008FAF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA110088226966F1008FAF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA11008E226966F1008FAF31 /* JHDynamicToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDynamicToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA110092226966F1008FAF31 /* JHDynamicToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDynamicToolsDemoTests.m; sourceTree = "<group>"; };
+		CA110094226966F1008FAF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA110099226966F1008FAF31 /* JHDynamicToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDynamicToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA11009D226966F1008FAF31 /* JHDynamicToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDynamicToolsDemoUITests.m; sourceTree = "<group>"; };
+		CA11009F226966F1008FAF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1100AB2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JHToolsSDK_CommonSDK.framework; sourceTree = "<group>"; };
+		CA1100AC2269670C008FAF31 /* JHToolsSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JHToolsSDKCore.framework; sourceTree = "<group>"; };
+		CA1100BD22696AFA008FAF31 /* Bundle_51WanSY.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle_51WanSY.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA110073226966F0008FAF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1100AE2269670C008FAF31 /* JHToolsSDKCore.framework in Frameworks */,
+				CA1100AD2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework in Frameworks */,
+				CA1100B12269671D008FAF31 /* JHToolsSDKCore.framework in Frameworks */,
+				CA1100AF2269671D008FAF31 /* JHToolsSDK_CommonSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11008B226966F1008FAF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA110096226966F1008FAF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA11006D226966F0008FAF31 = {
+			isa = PBXGroup;
+			children = (
+				CA1100B622696AFA008FAF31 /* SDK */,
+				CA1100AB2269670C008FAF31 /* JHToolsSDK_CommonSDK.framework */,
+				CA1100AC2269670C008FAF31 /* JHToolsSDKCore.framework */,
+				CA110078226966F0008FAF31 /* JHDynamicToolsDemo */,
+				CA110091226966F1008FAF31 /* JHDynamicToolsDemoTests */,
+				CA11009C226966F1008FAF31 /* JHDynamicToolsDemoUITests */,
+				CA110077226966F0008FAF31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA110077226966F0008FAF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA110076226966F0008FAF31 /* JHDynamicToolsDemo.app */,
+				CA11008E226966F1008FAF31 /* JHDynamicToolsDemoTests.xctest */,
+				CA110099226966F1008FAF31 /* JHDynamicToolsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA110078226966F0008FAF31 /* JHDynamicToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA110079226966F0008FAF31 /* AppDelegate.h */,
+				CA11007A226966F0008FAF31 /* AppDelegate.m */,
+				CA11007C226966F0008FAF31 /* ViewController.h */,
+				CA11007D226966F0008FAF31 /* ViewController.m */,
+				CA11007F226966F0008FAF31 /* Main.storyboard */,
+				CA110082226966F1008FAF31 /* Assets.xcassets */,
+				CA110084226966F1008FAF31 /* LaunchScreen.storyboard */,
+				CA110087226966F1008FAF31 /* Info.plist */,
+				CA110088226966F1008FAF31 /* main.m */,
+			);
+			path = JHDynamicToolsDemo;
+			sourceTree = "<group>";
+		};
+		CA110091226966F1008FAF31 /* JHDynamicToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA110092226966F1008FAF31 /* JHDynamicToolsDemoTests.m */,
+				CA110094226966F1008FAF31 /* Info.plist */,
+			);
+			path = JHDynamicToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		CA11009C226966F1008FAF31 /* JHDynamicToolsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA11009D226966F1008FAF31 /* JHDynamicToolsDemoUITests.m */,
+				CA11009F226966F1008FAF31 /* Info.plist */,
+			);
+			path = JHDynamicToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		CA1100B622696AFA008FAF31 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CA1100BD22696AFA008FAF31 /* Bundle_51WanSY.bundle */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA110075226966F0008FAF31 /* JHDynamicToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1100A2226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemo" */;
+			buildPhases = (
+				CA110072226966F0008FAF31 /* Sources */,
+				CA110073226966F0008FAF31 /* Frameworks */,
+				CA110074226966F0008FAF31 /* Resources */,
+				CA1100B32269671D008FAF31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHDynamicToolsDemo;
+			productName = JHDynamicToolsDemo;
+			productReference = CA110076226966F0008FAF31 /* JHDynamicToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA11008D226966F1008FAF31 /* JHDynamicToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1100A5226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemoTests" */;
+			buildPhases = (
+				CA11008A226966F1008FAF31 /* Sources */,
+				CA11008B226966F1008FAF31 /* Frameworks */,
+				CA11008C226966F1008FAF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA110090226966F1008FAF31 /* PBXTargetDependency */,
+			);
+			name = JHDynamicToolsDemoTests;
+			productName = JHDynamicToolsDemoTests;
+			productReference = CA11008E226966F1008FAF31 /* JHDynamicToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA110098226966F1008FAF31 /* JHDynamicToolsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1100A8226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemoUITests" */;
+			buildPhases = (
+				CA110095226966F1008FAF31 /* Sources */,
+				CA110096226966F1008FAF31 /* Frameworks */,
+				CA110097226966F1008FAF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA11009B226966F1008FAF31 /* PBXTargetDependency */,
+			);
+			name = JHDynamicToolsDemoUITests;
+			productName = JHDynamicToolsDemoUITests;
+			productReference = CA110099226966F1008FAF31 /* JHDynamicToolsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA11006E226966F0008FAF31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "刘落星";
+				TargetAttributes = {
+					CA110075226966F0008FAF31 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CA11008D226966F1008FAF31 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA110075226966F0008FAF31;
+					};
+					CA110098226966F1008FAF31 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA110075226966F0008FAF31;
+					};
+				};
+			};
+			buildConfigurationList = CA110071226966F0008FAF31 /* Build configuration list for PBXProject "JHDynamicToolsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA11006D226966F0008FAF31;
+			productRefGroup = CA110077226966F0008FAF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA110075226966F0008FAF31 /* JHDynamicToolsDemo */,
+				CA11008D226966F1008FAF31 /* JHDynamicToolsDemoTests */,
+				CA110098226966F1008FAF31 /* JHDynamicToolsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA110074226966F0008FAF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA110086226966F1008FAF31 /* LaunchScreen.storyboard in Resources */,
+				CA1100C422696AFA008FAF31 /* Bundle_51WanSY.bundle in Resources */,
+				CA110083226966F1008FAF31 /* Assets.xcassets in Resources */,
+				CA110081226966F0008FAF31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11008C226966F1008FAF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA110097226966F1008FAF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA110072226966F0008FAF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11007E226966F0008FAF31 /* ViewController.m in Sources */,
+				CA110089226966F1008FAF31 /* main.m in Sources */,
+				CA11007B226966F0008FAF31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11008A226966F1008FAF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA110093226966F1008FAF31 /* JHDynamicToolsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA110095226966F1008FAF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11009E226966F1008FAF31 /* JHDynamicToolsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA110090226966F1008FAF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA110075226966F0008FAF31 /* JHDynamicToolsDemo */;
+			targetProxy = CA11008F226966F1008FAF31 /* PBXContainerItemProxy */;
+		};
+		CA11009B226966F1008FAF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA110075226966F0008FAF31 /* JHDynamicToolsDemo */;
+			targetProxy = CA11009A226966F1008FAF31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA11007F226966F0008FAF31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA110080226966F0008FAF31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA110084226966F1008FAF31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA110085226966F1008FAF31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1100A0226966F1008FAF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA1100A1226966F1008FAF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1100A3226966F1008FAF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HW9U4B8YY9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/AliPaySDK",
+					"$(PROJECT_DIR)/SDK",
+				);
+				INFOPLIST_FILE = JHDynamicToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/WeChatSDK1.8.3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1100A4226966F1008FAF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HW9U4B8YY9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/AliPaySDK",
+					"$(PROJECT_DIR)/SDK",
+				);
+				INFOPLIST_FILE = JHDynamicToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/WeChatSDK1.8.3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1100A6226966F1008FAF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHDynamicToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDynamicToolsDemo.app/JHDynamicToolsDemo";
+			};
+			name = Debug;
+		};
+		CA1100A7226966F1008FAF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHDynamicToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDynamicToolsDemo.app/JHDynamicToolsDemo";
+			};
+			name = Release;
+		};
+		CA1100A9226966F1008FAF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHDynamicToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHDynamicToolsDemo;
+			};
+			name = Debug;
+		};
+		CA1100AA226966F1008FAF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHDynamicToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csxy.JHDynamicToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHDynamicToolsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA110071226966F0008FAF31 /* Build configuration list for PBXProject "JHDynamicToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1100A0226966F1008FAF31 /* Debug */,
+				CA1100A1226966F1008FAF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1100A2226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1100A3226966F1008FAF31 /* Debug */,
+				CA1100A4226966F1008FAF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1100A5226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1100A6226966F1008FAF31 /* Debug */,
+				CA1100A7226966F1008FAF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1100A8226966F1008FAF31 /* Build configuration list for PBXNativeTarget "JHDynamicToolsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1100A9226966F1008FAF31 /* Debug */,
+				CA1100AA226966F1008FAF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA11006E226966F0008FAF31 /* Project object */;
+}

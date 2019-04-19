@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D99A66205CC73C0081206F /* JHToolsSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A58205CC73A0081206F /* JHToolsSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99A97205CC8DE0081206F /* JHToolsAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A96205CC8DE0081206F /* JHToolsAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AAA205CCB2A0081206F /* JHToolsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A98205CCB240081206F /* JHToolsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AAB205CCB2A0081206F /* JHToolsSDKProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99A99205CCB240081206F /* JHToolsSDKProxy.m */; };
+		F8D99AAC205CCB2A0081206F /* JHToolsSDKProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A9A205CCB250081206F /* JHToolsSDKProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AAD205CCB2A0081206F /* JHToolsShare.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A9B205CCB250081206F /* JHToolsShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AAE205CCB2A0081206F /* JHToolsProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99A9C205CCB250081206F /* JHToolsProgressHUD.m */; };
+		F8D99AAF205CCB2A0081206F /* JHToolsPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99A9D205CCB250081206F /* JHToolsPush.m */; };
+		F8D99AB0205CCB2A0081206F /* JHToolsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99A9E205CCB270081206F /* JHToolsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AB1205CCB2A0081206F /* JHToolsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99A9F205CCB270081206F /* JHToolsPlugin.m */; };
+		F8D99AB2205CCB2A0081206F /* JHToolsPay.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99AA0205CCB280081206F /* JHToolsPay.m */; };
+		F8D99AB3205CCB2A0081206F /* JHToolsSDK+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99AA1205CCB280081206F /* JHToolsSDK+AppDelegate.m */; };
+		F8D99AB4205CCB2A0081206F /* JHToolsShare.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99AA2205CCB280081206F /* JHToolsShare.m */; };
+		F8D99AB5205CCB2A0081206F /* JHToolsAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99AA3205CCB280081206F /* JHToolsAnalytics.m */; };
+		F8D99AB6205CCB2A0081206F /* JHToolsPush.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99AA4205CCB280081206F /* JHToolsPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AB7205CCB2A0081206F /* JHToolsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99AA5205CCB280081206F /* JHToolsSDK.m */; };
+		F8D99AB8205CCB2A0081206F /* JHToolsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99AA6205CCB290081206F /* JHToolsUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99AB9205CCB2A0081206F /* JHToolsPay.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99AA7205CCB290081206F /* JHToolsPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99ABA205CCB2A0081206F /* JHToolsProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99AA8205CCB290081206F /* JHToolsProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D99ABB205CCB2A0081206F /* JHToolsSDK+AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D99AA9205CCB290081206F /* JHToolsSDK+AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8D99A55205CC73A0081206F /* JHToolsSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHToolsSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D99A58205CC73A0081206F /* JHToolsSDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHToolsSDKCore.h; sourceTree = "<group>"; };
+		F8D99A59205CC73A0081206F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D99A96205CC8DE0081206F /* JHToolsAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsAnalytics.h; sourceTree = "<group>"; };
+		F8D99A98205CCB240081206F /* JHToolsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsPlugin.h; sourceTree = "<group>"; };
+		F8D99A99205CCB240081206F /* JHToolsSDKProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsSDKProxy.m; sourceTree = "<group>"; };
+		F8D99A9A205CCB250081206F /* JHToolsSDKProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsSDKProxy.h; sourceTree = "<group>"; };
+		F8D99A9B205CCB250081206F /* JHToolsShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsShare.h; sourceTree = "<group>"; };
+		F8D99A9C205CCB250081206F /* JHToolsProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsProgressHUD.m; sourceTree = "<group>"; };
+		F8D99A9D205CCB250081206F /* JHToolsPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsPush.m; sourceTree = "<group>"; };
+		F8D99A9E205CCB270081206F /* JHToolsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsSDK.h; sourceTree = "<group>"; };
+		F8D99A9F205CCB270081206F /* JHToolsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsPlugin.m; sourceTree = "<group>"; };
+		F8D99AA0205CCB280081206F /* JHToolsPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsPay.m; sourceTree = "<group>"; };
+		F8D99AA1205CCB280081206F /* JHToolsSDK+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHToolsSDK+AppDelegate.m"; sourceTree = "<group>"; };
+		F8D99AA2205CCB280081206F /* JHToolsShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsShare.m; sourceTree = "<group>"; };
+		F8D99AA3205CCB280081206F /* JHToolsAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsAnalytics.m; sourceTree = "<group>"; };
+		F8D99AA4205CCB280081206F /* JHToolsPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsPush.h; sourceTree = "<group>"; };
+		F8D99AA5205CCB280081206F /* JHToolsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolsSDK.m; sourceTree = "<group>"; };
+		F8D99AA6205CCB290081206F /* JHToolsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsUser.h; sourceTree = "<group>"; };
+		F8D99AA7205CCB290081206F /* JHToolsPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsPay.h; sourceTree = "<group>"; };
+		F8D99AA8205CCB290081206F /* JHToolsProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolsProgressHUD.h; sourceTree = "<group>"; };
+		F8D99AA9205CCB290081206F /* JHToolsSDK+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHToolsSDK+AppDelegate.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D99A51205CC73A0081206F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D99A4B205CC73A0081206F = {
+			isa = PBXGroup;
+			children = (
+				F8D99A6F205CC8920081206F /* JHToolsSDK */,
+				F8D99A57205CC73A0081206F /* JHToolsSDKCore */,
+				F8D99A56205CC73A0081206F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D99A56205CC73A0081206F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99A55205CC73A0081206F /* JHToolsSDKCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D99A57205CC73A0081206F /* JHToolsSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99A58205CC73A0081206F /* JHToolsSDKCore.h */,
+				F8D99A59205CC73A0081206F /* Info.plist */,
+			);
+			path = JHToolsSDKCore;
+			sourceTree = "<group>";
+		};
+		F8D99A6F205CC8920081206F /* JHToolsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99A96205CC8DE0081206F /* JHToolsAnalytics.h */,
+				F8D99AA3205CCB280081206F /* JHToolsAnalytics.m */,
+				F8D99AA7205CCB290081206F /* JHToolsPay.h */,
+				F8D99AA0205CCB280081206F /* JHToolsPay.m */,
+				F8D99A98205CCB240081206F /* JHToolsPlugin.h */,
+				F8D99A9F205CCB270081206F /* JHToolsPlugin.m */,
+				F8D99AA8205CCB290081206F /* JHToolsProgressHUD.h */,
+				F8D99A9C205CCB250081206F /* JHToolsProgressHUD.m */,
+				F8D99AA4205CCB280081206F /* JHToolsPush.h */,
+				F8D99A9D205CCB250081206F /* JHToolsPush.m */,
+				F8D99A9E205CCB270081206F /* JHToolsSDK.h */,
+				F8D99AA5205CCB280081206F /* JHToolsSDK.m */,
+				F8D99AA9205CCB290081206F /* JHToolsSDK+AppDelegate.h */,
+				F8D99AA1205CCB280081206F /* JHToolsSDK+AppDelegate.m */,
+				F8D99A9A205CCB250081206F /* JHToolsSDKProxy.h */,
+				F8D99A99205CCB240081206F /* JHToolsSDKProxy.m */,
+				F8D99A9B205CCB250081206F /* JHToolsShare.h */,
+				F8D99AA2205CCB280081206F /* JHToolsShare.m */,
+				F8D99AA6205CCB290081206F /* JHToolsUser.h */,
+			);
+			path = JHToolsSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8D99A52205CC73A0081206F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D99AB6205CCB2A0081206F /* JHToolsPush.h in Headers */,
+				F8D99A66205CC73C0081206F /* JHToolsSDKCore.h in Headers */,
+				F8D99AB0205CCB2A0081206F /* JHToolsSDK.h in Headers */,
+				F8D99A97205CC8DE0081206F /* JHToolsAnalytics.h in Headers */,
+				F8D99AAC205CCB2A0081206F /* JHToolsSDKProxy.h in Headers */,
+				F8D99ABA205CCB2A0081206F /* JHToolsProgressHUD.h in Headers */,
+				F8D99AB8205CCB2A0081206F /* JHToolsUser.h in Headers */,
+				F8D99AAD205CCB2A0081206F /* JHToolsShare.h in Headers */,
+				F8D99ABB205CCB2A0081206F /* JHToolsSDK+AppDelegate.h in Headers */,
+				F8D99AAA205CCB2A0081206F /* JHToolsPlugin.h in Headers */,
+				F8D99AB9205CCB2A0081206F /* JHToolsPay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8D99A54205CC73A0081206F /* JHToolsSDKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D99A69205CC73C0081206F /* Build configuration list for PBXNativeTarget "JHToolsSDKCore" */;
+			buildPhases = (
+				F8D99A50205CC73A0081206F /* Sources */,
+				F8D99A51205CC73A0081206F /* Frameworks */,
+				F8D99A52205CC73A0081206F /* Headers */,
+				F8D99A53205CC73A0081206F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHToolsSDKCore;
+			productName = JHToolsSDKCore;
+			productReference = F8D99A55205CC73A0081206F /* JHToolsSDKCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D99A4C205CC73A0081206F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Star;
+				TargetAttributes = {
+					F8D99A54205CC73A0081206F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8D99A4F205CC73A0081206F /* Build configuration list for PBXProject "JHToolsSDKCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8D99A4B205CC73A0081206F;
+			productRefGroup = F8D99A56205CC73A0081206F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D99A54205CC73A0081206F /* JHToolsSDKCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D99A53205CC73A0081206F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D99A50205CC73A0081206F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D99AB5205CCB2A0081206F /* JHToolsAnalytics.m in Sources */,
+				F8D99AB4205CCB2A0081206F /* JHToolsShare.m in Sources */,
+				F8D99AB1205CCB2A0081206F /* JHToolsPlugin.m in Sources */,
+				F8D99AB3205CCB2A0081206F /* JHToolsSDK+AppDelegate.m in Sources */,
+				F8D99AAE205CCB2A0081206F /* JHToolsProgressHUD.m in Sources */,
+				F8D99AAF205CCB2A0081206F /* JHToolsPush.m in Sources */,
+				F8D99AB2205CCB2A0081206F /* JHToolsPay.m in Sources */,
+				F8D99AAB205CCB2A0081206F /* JHToolsSDKProxy.m in Sources */,
+				F8D99AB7205CCB2A0081206F /* JHToolsSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8D99A67205CC73C0081206F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8D99A68205CC73C0081206F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8D99A6A205CC73C0081206F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HW9U4B8YY9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Confuse/Confuse\"";
+				INFOPLIST_FILE = JHToolsSDKCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.669.JHToolsSDKCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D99A6B205CC73C0081206F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HW9U4B8YY9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Confuse/Confuse\"";
+				INFOPLIST_FILE = JHToolsSDKCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.669.JHToolsSDKCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D99A4F205CC73A0081206F /* Build configuration list for PBXProject "JHToolsSDKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D99A67205CC73C0081206F /* Debug */,
+				F8D99A68205CC73C0081206F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D99A69205CC73C0081206F /* Build configuration list for PBXNativeTarget "JHToolsSDKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D99A6A205CC73C0081206F /* Debug */,
+				F8D99A6B205CC73C0081206F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D99A4C205CC73A0081206F /* Project object */;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ChannelName</key>
+	<string>51WanSY</string>
+	<key>51WanSY</key>
+	<dict>
+		<key>domain</key>
+		<string>http://www.51wansy.com</string>
+		<key>secretKey</key>
+		<string>YLTWbZoZ4DCQ1zrcN3rqi77ajKLwhuHv</string>
+		<key>kefukey</key>
+		<string>86b070f9bcc5a83178fd4ed51ec7fd6b</string>
+		<key>chanelID</key>
+		<string>0</string>
+		<key>isAppSotre</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>
