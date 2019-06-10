@@ -1,0 +1,6 @@
+framework module JHToolsSDK_CommonSDK {
+  umbrella header "JHToolsSDK_CommonSDK.h"
+
+  export *
+  module * { export * }
+}
