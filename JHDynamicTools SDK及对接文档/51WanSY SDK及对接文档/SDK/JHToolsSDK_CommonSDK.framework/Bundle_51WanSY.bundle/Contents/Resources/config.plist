@@ -14,8 +14,12 @@
 		<string>86b070f9bcc5a83178fd4ed51ec7fd6b</string>
 		<key>chanelID</key>
 		<string>0</string>
+		<key>channel_str</key>
+		<string></string>
 		<key>isAppSotre</key>
-		<string>1</string>
+		<string>0</string>
+		<key>inner_sdk_version</key>
+		<string>3.0.2</string>
 	</dict>
 </dict>
 </plist>
