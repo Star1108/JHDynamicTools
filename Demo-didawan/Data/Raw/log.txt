@@ -1,0 +1,4 @@
+---------------------PublishUtility starts at 2019-03-15 20:48:01. Execute cmd:CopyAppRes, input:/Users/apack/Desktop/Project/pack/qyj/ab/2.12.0.0, output:/Users/apack/Downloads/IosProject/XiYou/Project/Data/Raw. Ohter params:-logFile;/Users/apack/Downloads/IosProject/XiYou/Project/Data/Raw/u3d_log.txt.
+CopyAppResources begin at 2019-03-15 20:48:01.
+PublishUtility finishs at 2019-03-15 20:48:01, elapsed time:00:00:00.
+COMPELTE

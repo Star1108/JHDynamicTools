@@ -1,0 +1,10 @@
+
+{
+    "platformId" : "2",
+    "publishIno" : "著作权人：上海元起网络科技有限公司 出版单位：上海元起网络科技有限公司\n文网游备字 沪新出科数【2017】776号 新广出审【2017】6620号 出版物号：ISBN 978-7-7979-9780-5",
+    "serverKey"  : "http://centermhtx2.iosgh.shyouai.com:8001/",
+    "verInfo"    : "p_30226_30232_031519",
+    "appId"      : "",
+    "appRegion"  : "cn",
+    "channelKey" : "51wansy_appstore_cqb"
+}
