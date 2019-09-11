@@ -1,0 +1,6 @@
+framework module YYJPlatform {
+  umbrella header "YYJPlatform.h"
+
+  export *
+  module * { export * }
+}

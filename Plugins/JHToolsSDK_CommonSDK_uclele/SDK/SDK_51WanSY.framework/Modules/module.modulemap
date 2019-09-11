@@ -1,0 +1,6 @@
+framework module SDK_51WanSY {
+  umbrella header "SDK_51WanSY.h"
+
+  export *
+  module * { export * }
+}
