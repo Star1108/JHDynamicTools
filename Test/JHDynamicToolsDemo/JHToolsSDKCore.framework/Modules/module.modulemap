@@ -1,6 +1,0 @@
-framework module JHToolsSDKCore {
-  umbrella header "JHToolsSDKCore.h"
-
-  export *
-  module * { export * }
-}
